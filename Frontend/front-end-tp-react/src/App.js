@@ -1,6 +1,8 @@
+import Formular from "./components/formular";
+
 function App() {
     return <>
-        <h1>Coucou</h1>
+        <Formular />
     </>
 }
 
