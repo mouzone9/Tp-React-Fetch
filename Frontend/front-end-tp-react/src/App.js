@@ -1,6 +1,6 @@
-import React from "react";
-import './styles/setting.css'
+import React    from "react";
 import Formular from "./components/formular.js"
+import './styles/setting.css'
 
 function App() {
     return (

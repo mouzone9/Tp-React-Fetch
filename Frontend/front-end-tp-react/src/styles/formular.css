@@ -2,7 +2,7 @@
     display    : block;
     position   : relative;
     width      : 530px;
-    height     : 600px;
+    height     : 900px;
     margin     : auto;
     margin-top : 100px;
     box-shadow : 1px 5px 10px 1px #333;
@@ -34,7 +34,7 @@ a {
 .connexion {
     position   : absolute;
     padding    : 15% 13%;
-    width      : 74%;
+    width      : 70%;
     left       : 0px;
     transition : all 0.7s;
 }
