@@ -29,8 +29,7 @@ function Formular() {
                             <input className='submit' value="connect" type='submit' />
                     </div>
                     <div className='connexion'>
-                            <div className='spaceBetweenTerms' />
-                                <a className="" href='#'>
+                            <a className="" href='#'>
                                 <h2>S'inscrire</h2>
                             </a>
                             <label>NAME</label>
