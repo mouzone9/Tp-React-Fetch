@@ -47,7 +47,7 @@ function Formular() {
                                 placeholder='EMAIL'
                                 {...register("email")}
                             />
-                            <label>PASSWO</label>
+                            <label>PASSWORD</label>
                             <input
                                 placeholder='PASSWORD'
                                 {...register("password")}
