@@ -1,7 +1,7 @@
 .container {
     display    : block;
     position   : relative;
-    width      : 530px;
+    width      : 700px;
     height     : 900px;
     margin     : auto;
     margin-top : 100px;
@@ -36,7 +36,6 @@ a {
     padding    : 15% 13%;
     width      : 70%;
     left       : 0px;
-    transition : all 0.7s;
 }
 
 label {
@@ -56,7 +55,6 @@ input {
     border        : 0;
     border-radius : 20px;
     font-family   : "Roboto",sans-serif;
-    opacity       : 0.15;
 }
 
 input.submit {
@@ -68,7 +66,7 @@ input.submit {
     opacity          : 1;
     background-color : #1161EE;
     cursor           : pointer;
-    position         : bottom ;
+    position         : bottom;
 }
 
 .spaceBetweenTerms {
