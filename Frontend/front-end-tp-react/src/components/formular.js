@@ -1,6 +1,5 @@
 import React        from 'react'
 import { useForm }  from "react-hook-form";
-import { useState } from 'react';
 import '../styles/formular.css'
 
 function Formular() {
@@ -47,7 +46,7 @@ function Formular() {
                                 placeholder='EMAIL'
                                 {...register("email")}
                             />
-                            <label>PASSWO</label>
+                            <label>PASSWORD</label>
                             <input
                                 placeholder='PASSWORD'
                                 {...register("password")}

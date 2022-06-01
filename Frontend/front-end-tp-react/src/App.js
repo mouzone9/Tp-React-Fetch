@@ -1,5 +1,6 @@
 import React    from "react";
 import Formular from "./components/formular.js"
+import Post     from "./components/post.js";
 import './styles/setting.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <div>
             <h1>Tp React</h1>
             <Formular />
+            <Post />
         </div>
     )
 }
