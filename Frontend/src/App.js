@@ -2,6 +2,7 @@ import React                 from "react";
 import FormularConnection    from "./components/formularConnection.js";
 import FormularSubscription  from "./components/formularSubscription.js";
 import Post                  from "./components/post.js";
+import AllPosts              from "./components/allPosts.js";
 import './styles/setting.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <FormularConnection />
             <FormularSubscription />
             <Post />
+            <AllPosts />
         </div>
     )
 }
