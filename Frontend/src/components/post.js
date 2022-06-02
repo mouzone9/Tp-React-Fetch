@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import api from "../api/baseUrl";
+import instance from "../api/baseUrl";
 import "../styles/post.css";
 
 export default function Post() {
@@ -12,13 +12,14 @@ export default function Post() {
       content: data.content,
     });
 
-    api
+    instance
       .post("/posts", {
         title: data.title,
         content: data.content,
       })
       .then((res) => {
         console.log("envoyé !", res);
+        window.location.reload();
       })
       .catch((err) => console.log("error !", err));
   };

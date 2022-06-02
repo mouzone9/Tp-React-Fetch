@@ -2,7 +2,7 @@ import React        from 'react'
 import { useForm }  from "react-hook-form";
 import { useState } from 'react';
 import '../styles/formular.css'
-import baseUrl      from '../api/baseUrl';
+import instance      from '../api/baseUrl';
 
 function FormularConnection() {
     const { handleSubmit, register } = useForm();
@@ -11,12 +11,13 @@ function FormularConnection() {
         console.log(data),
         console.log(connected),
 
-        baseUrl.post(`/login_check`, {
+        instance.post(`/login_check`, {
             "username": data.username,
             "password": data.password
          })
-            .then(res => {
-                console.log(res);
+            .then(() => {
+                document.cookie = "username=" + data.username;
+                window.location.reload();
             }
         )
         .catch(res => {

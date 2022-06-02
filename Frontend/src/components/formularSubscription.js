@@ -1,13 +1,13 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import "../styles/formularSubscription.css";
-import api from "../api/baseUrl";
+import instance from "../api/baseUrl";
 
 export default function FormularSubscription() {
   const { handleSubmit, register } = useForm();
 
   const onSubmit = (data) => {
-    api.post("/register", {
+    instance.post("/register", {
       username: data.username,
       firstname: data.firstname,
       lastname: data.lastname,

@@ -6,6 +6,7 @@ export default class OnePost extends React.Component {
     super(props);
     this.titre = props.titre;
     this.content = props.content;
+    this.author = props.author;
   }
 
   render() {
@@ -13,6 +14,7 @@ export default class OnePost extends React.Component {
       <div className="container-post post">
         <div className="callout secondary">
           <h4 className="leave-comment">{this.titre}</h4>
+          <p>{this.author}</p>
           <p>{this.content}</p>
         </div>
       </div>
