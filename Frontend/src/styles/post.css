@@ -1,0 +1,48 @@
+.callout.secondary {
+    margin-top : 20px;
+    box-shadow : 1px 5px 10px 1px #333;
+}
+
+.callout {
+    margin           : 0 0 1rem;
+    padding          : 1rem;
+    border           : 1px solid rgba(10,10,10,.25);
+    border-radius    : 0;
+    position         : relative;
+    color            : #0a0a0a;
+    background-color : #fff;
+}
+
+form {
+    display : block;
+}
+
+button {
+    width      : 80%;
+    display          : block;
+    margin           : auto;
+    padding          : 10px;
+    font-size        : 17px;
+    font-weight      : 700;
+    color            : #fff;
+    opacity          : 1;
+    background-color : #1161EE;
+    cursor           : pointer;
+    position         : bottom;
+    border-radius    : 20px;
+}
+
+.container-post {
+    display    : block;
+    position   : relative;
+    width      : 700px;
+    margin     : auto;
+    margin-top : 100px;
+    box-shadow :1 5px 10px 1px #333;
+    overflow   : hidden;
+}
+
+
+h4 {
+    color: #0a0a0a;
+}

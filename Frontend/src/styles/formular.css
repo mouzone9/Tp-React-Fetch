@@ -1,0 +1,74 @@
+.container-formular {
+    display    : block;
+    position   : relative;
+    width      : 700px;
+    height     : 500px;
+    margin     : auto;
+    margin-top : 100px;
+    box-shadow : 1px 5px 10px 1px #333;
+    overflow   : hidden;
+}
+
+.menu {
+    position : relative;
+    padding  : 15% 13% 0 13%
+}
+
+.menu h2 {
+    display        : inline;
+    margin         : 20px;
+    padding-bottom : 3px;
+    border-bottom  : 3px solid #1161ee;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration : inherit;
+    color           : inherit;
+}
+
+.connexion {
+    position   : absolute;
+    padding    : 15% 13%;
+    width      : 70%;
+    left       : 0px;
+}
+
+label {
+    display     : block;
+    margin-top  : 10px;
+    padding     : 5px 10px;
+    font-size   : 15px;
+    font-weight : 600;
+    color       : rgb(0, 0, 0);
+}
+
+input {
+    display       : block;
+    width         : 93%;
+    margin        : auto;
+    padding       : 13px;
+    border        : 0;
+    border-radius : 20px;
+    font-family   : "Roboto",sans-serif;
+}
+
+input.submit {
+    width            : 100%;
+    padding          : 10px;
+    font-size        : 17px;
+    font-weight      : 700;
+    color            : #fff;
+    opacity          : 1;
+    background-color : #1161EE;
+    cursor           : pointer;
+    position         : bottom;
+}
+
+.spaceBetweenTerms {
+    padding : 10px;
+}
