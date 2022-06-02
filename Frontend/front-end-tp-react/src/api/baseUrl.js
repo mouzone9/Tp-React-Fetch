@@ -1,3 +1,6 @@
+import axios from "axios"
+
 export default axios.create({
-    baseURL: "https://localhost/api",
+    baseURL: "http://localhost:8000/api",
+    withCredentials: true
 })

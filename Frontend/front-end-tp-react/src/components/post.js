@@ -1,4 +1,4 @@
-import React from 'react'
+import React        from 'react'
 import { useState } from 'react'
 import '../styles/post.css'
 
@@ -34,9 +34,6 @@ function Post() {
                     <input onChange={(event) => onChange(event)} id="content" value={data.content} placeholder='CONTENT' type='text'/>
                     <button>Add comment</button>
                 </form>
-                <div>
-                    {/*{this.renderPost()}*/}
-                </div>
             </div>
         </div>
     </>
