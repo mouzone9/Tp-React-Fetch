@@ -55,6 +55,7 @@ export default function FormularSubscription() {
           <label>PASSWORD</label>
           <input
             placeholder="PASSWORD"
+            type="password"
             {...register("password", { required: true })}
           />
           <div className="spaceBetweenTerms" />

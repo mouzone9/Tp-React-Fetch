@@ -42,6 +42,7 @@ function FormularConnection() {
                             <label>PASSWORD</label>
                             <input
                                 placeholder='password'
+                                type="password"
                                 {...register("password")}
                             />
                             <div className='spaceBetweenTerms' />
